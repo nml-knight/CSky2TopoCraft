@@ -20,8 +20,8 @@ Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# 
 ![findutm](images/findutm.png)
 #### Step 2
 Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the CRS.
-![changecrs](images/changecrs.png)
-![epsgselectcrs](images/selectcrs.png)
+![changecrs](images/epsgchangecrs.png)
+![epsgselectcrs](images/epsgselectcrs.png)
 Use the map to determine the coordinates of your city.
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
