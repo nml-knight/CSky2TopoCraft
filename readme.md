@@ -1,5 +1,5 @@
 # CSky2TopoCraft: QGIS DEM Downloader & Heightmap Generator
-This is CSky2TopoCraft: a QGIS plugin that will allow you to automatically download, format and export realistic heightmaps to Cities Skylines 2 map editor. 
+This is CSky2TopoCraft: a QGIS plugin that will allow you to automatically download, format and export realistic heightmaps to Cities Skylines 2 map editor. Follow the instructions.
 
 
 ## Instructions
