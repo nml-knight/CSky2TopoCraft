@@ -10,7 +10,10 @@ Download and install QGIS from https://qgis.org/en/site/forusers/download.html
 ![maiplugin](images/maiplugin.png)
 ![insfromzip](images/insfromzip.png)
 ### Get OpenTopography API Key
-
+Navigate to https://opentopography.org/ and hit Request an API key to create an account.
+![otrequestapikey](images/otrequestapikey.png)
+Find your API key at: https://portal.opentopography.org/requestService?service=api
+![otapikey](images/otapikey.png)
 ### Get Your Coordinates & CRS
 #### Step 1
 https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#
