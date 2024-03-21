@@ -13,6 +13,9 @@ In QGIS:
 
 ![maiplugin](images/maiplugin.png)
 ![insfromzip](images/insfromzip.png)
+
+The plugin will appear listed in the Plugins menu.
+
 ### Get OpenTopography API Key
 Navigate to https://opentopography.org/ and hit Request an API key to create an account.
 
