@@ -6,7 +6,7 @@
 ## Instructions
 
 ### Install QGIS
-
+Download and install QGIS from https://qgis.org/en/site/forusers/download.html
 ### Install Plugin
 
 ### Get OpenTopography API Key
