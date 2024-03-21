@@ -52,7 +52,7 @@ Use the map to determine the coordinates of your city. Note down the EPSG code f
 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
-## Development Notes
+## Development
 Currently in the works:
 
 (1) DSM to DTM Converter.
