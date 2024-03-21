@@ -24,6 +24,7 @@ In QGIS:
 ![maiplugin](images/maiplugin.png)
 
 Navigate to the correct tab and hit the ellipsis to find the .zip file you just downloaded.
+
 ![insfromzip](images/insfromzip.png)
 
 The plugin will appear listed in the Plugins menu.
