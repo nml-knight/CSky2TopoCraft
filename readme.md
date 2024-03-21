@@ -45,9 +45,12 @@ Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# 
 ![findutm](images/findutm.png)
 
 #### Step 2
-Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / UTM zone (number)(hemisphere).
+Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and hit change. 
 
 ![changecrs](images/epsgchangecrs.png)
+
+Enter your UTM zone in the search box and use the results to change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / UTM zone (number)(hemisphere).
+
 ![epsgselectcrs](images/epsgselectcrs.png)
 
 Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note down the EPSG code for your CRS (1).
