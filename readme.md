@@ -16,9 +16,14 @@ Find your API key at: https://portal.opentopography.org/requestService?service=a
 ![otapikey](images/otapikey.png)
 ### Get Your Coordinates & CRS
 #### Step 1
-https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#
+Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# and determine the UTM zone of your city.
+![findutm](images/findutm.png)
 #### Step 2
-https://epsg.io/transform#s_srs=32653&t_srs=32733&x=648329.9881510&y=3870675.5815510 
+Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the CRS.
+![changecrs](images/changecrs.png)
+![epsgselectcrs](images/selectcrs.png)
+Use the map to determine the coordinates of your city.
+![findcoord](images/findcoord.png)
 ### Using the Plugin
 ## Note
 
