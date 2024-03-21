@@ -17,3 +17,4 @@ https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-#
 #### Step 2
 https://epsg.io/transform#s_srs=32653&t_srs=32733&x=648329.9881510&y=3870675.5815510 
 ### Using the Plugin
+# Note
