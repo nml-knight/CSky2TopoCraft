@@ -1,6 +1,8 @@
 # CSky2TopoCraft: QGIS DEM Downloader & Heightmap Generator
 This is CSky2TopoCraft: a QGIS plugin that will allow you to automatically download, format and export realistic heightmaps to Cities Skylines 2 map editor. It essentially embeds OpenTopography's DEM downloader script into an automation of shanks' tried-and-tested method of heightmap creation, with some modifications and optional processing extensions.
 
+Note that this tool has been created to provide a pathway for players to make maps for cities outside the United States and other informationally-rich countries (e.g., Switzerland). Users will not be able to use it to download and create heightmaps from the USGS 1-metre DEM data product. 
+
 You will need:
 
 The Quantum Geographic Information System (QGIS)
@@ -41,7 +43,7 @@ Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# 
 ![findutm](images/findutm.png)
 
 #### Step 2
-Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / <
+Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / UTM <number><hemisphere>.
 
 ![changecrs](images/epsgchangecrs.png)
 ![epsgselectcrs](images/epsgselectcrs.png)
