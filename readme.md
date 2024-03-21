@@ -34,19 +34,19 @@ Find your API key at: https://portal.opentopography.org/requestService?service=a
 
 ![otapikey](images/otapikey.png)
 
-### Get Your Coordinates & CRS
+### Determine your Coordinate Reference System and Coordinates
 #### Step 1
-Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# and determine the UTM zone of your city.
+Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# and find the UTM zone in which your city falls.
 
 ![findutm](images/findutm.png)
 
 #### Step 2
-Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the CRS.
+Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets and change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / <
 
 ![changecrs](images/epsgchangecrs.png)
 ![epsgselectcrs](images/epsgselectcrs.png)
 
-Use the map to determine the coordinates of your city.
+Use the map to determine the coordinates of your city. Note down the EPSG code for your CRS (1).
 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
