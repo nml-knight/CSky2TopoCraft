@@ -9,6 +9,8 @@ Download and install QGIS from https://qgis.org/en/site/forusers/download.html
 ### Install Plugin
 Download the plugin .zip file from this repository. Open QGIS.
 
+In QGIS:
+
 ![maiplugin](images/maiplugin.png)
 ![insfromzip](images/insfromzip.png)
 ### Get OpenTopography API Key
