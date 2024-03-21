@@ -1,1 +1,1 @@
-##### QGIS DEM Downloader & Heightmap Generator
+# CSky2TopoCraft: QGIS DEM Downloader & Heightmap Generator
