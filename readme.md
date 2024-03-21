@@ -23,7 +23,7 @@ In QGIS:
 
 ![maiplugin](images/maiplugin.png)
 
-Navigate to the correct tab and hit the ellipsis to find the .zip file you just downloaded.
+Navigate to the correct tab and hit the ellipsis to find the .zip file you just downloaded. Install plugin.
 
 ![insfromzip](images/insfromzip.png)
 
