@@ -54,8 +54,12 @@ Use the map to determine the coordinates of your city. Note down the EPSG code f
 ### Using the Plugin
 ## Note
 Currently in the works:
+
 (1) DSM to DTM Converter.
+
 (2) Experimental Terrain Quality Enhancement Processing Options.
+
 (3) QGIS Map Canvas Visualisations.
+
 (4) Scripting for the automation of CRS identification based on user coordinates.
 
