@@ -7,6 +7,7 @@ This is CSky2TopoCraft: a QGIS plugin that will allow you to automatically downl
 ### Install QGIS
 Download and install QGIS from https://qgis.org/en/site/forusers/download.html
 ### Install Plugin
+Download the plugin .zip file from this repository.
 ![maiplugin](images/maiplugin.png)
 ![insfromzip](images/insfromzip.png)
 ### Get OpenTopography API Key
