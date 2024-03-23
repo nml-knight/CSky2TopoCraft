@@ -57,6 +57,7 @@ Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note 
 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
+### Advanced
 ## Development
 Currently in the works:
 
@@ -67,4 +68,10 @@ Currently in the works:
 (3) QGIS Map Canvas Visualisations.
 
 (4) Scripting for the automation of CRS identification based on user coordinates.
+
+(5) Cubic / Lanczos
+
+(6) Sea Level User Specification
+
+(7) Burning Rivers and Lakes
 
