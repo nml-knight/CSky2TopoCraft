@@ -94,7 +94,7 @@ Currently in the works:
 
 (6) Toggle for saved visualisation output.
 
-(6) Sea Level User Specification
+(7) Sea Level User Specification
 
-(7) Burning Rivers and Lakes
+(8) Burning Rivers and Lakes
 
