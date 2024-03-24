@@ -58,6 +58,14 @@ Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
 ### Advanced
+#### Download and Merge SRTM15+ Source Bathymetry Data
+The user can choose to automatically download and merge SRTM15+ source bathymetry data with the DEM. The script initiates the OpenTopography DEM Downloader algorithm. After downloading the bathymetry data, a validity mask is created from the DEM. This mask identifies where the bathymetry data is valid. It checks if the elevation value is equal to 0, indicating areas of no data. These areas are presumed to represent water. The downloaded bathymetry data raster is then reprojected, clipped, and aligned with the DEM data raster. The following expression is used in the Raster Calculator to apply the merge. The expression used in RCMerge ensures that where bathymetry data is available, it is used, and where it's not available, the DEM data is retained. 
+
+("A@1" * ("C@1" * ("C@1" <= -1 ) + -1 * ("C@1" > -1))) + (1 - "A@1") * "B@1"
+
+The SRTM15+ is very low resolution (aprox. 92m @ 15arcseconds). It does not capture complex seabed features. However, it does show general trends in seafloor depths.
+
+#### 
 ## Development
 Currently in the works:
 
