@@ -63,6 +63,10 @@ The user can choose to automatically download and merge SRTM15+ source bathymetr
 
 ("A@1" * ("C@1" * ("C@1" <= -1 ) + -1 * ("C@1" > -1))) + (1 - "A@1") * "B@1"
 
+A = Validity Mask
+B = DEM data raster
+C = Bathymetry data Raster
+
 The SRTM15+ is very low resolution (aprox. 92m @ 15arcseconds). It does not capture complex seabed features. However, it does show general trends in seafloor depths.
 
 #### 
