@@ -70,7 +70,7 @@ C = Bathymetry data Raster
 The SRTM15+ has a very low spatial resolution (aprox. 92m @ 15arcseconds). Whilst it will show trends in seabed depths, it does not capture complex seabed features. It also contains terrain data, which creates a problem for coastline delineation since areas where the land transitions into water coincide (are represented by the same pixel). The expression compensates for this by restricting the maximum valid value added from bathymetry layer to -1. Typically, this means that your coastline will be buffered by an immediate seafloor of -1. The inaccuracy of this value is compensated for by the resampling and rescaling processes that take place after the merge and during export.
 
 #### Set Minimum Elevation
-
+Note that the absolute minimum elevation will determine the automatic texturing in the editor. Relatively speaking, two maps may possess the same elevation values, but will be textured differently depending on their absolute value range in the editor. It seems like altitude affects texturing?
 #### 
 
 ## Known Issues
