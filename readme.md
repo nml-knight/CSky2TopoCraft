@@ -77,7 +77,7 @@ Set this to visualise your heightmap in the QGIS map canvas.
 
 ## Known Issues
 
-Min elev
+fix coord transform EPSG error
 
 ## Development
 Currently in the works:
