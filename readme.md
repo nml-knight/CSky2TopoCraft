@@ -72,6 +72,11 @@ The SRTM15+ has a very low spatial resolution (aprox. 92m @ 15arcseconds). Whils
 #### Set Minimum Elevation
 
 #### 
+
+## Known Issues
+
+Min elev
+
 ## Development
 Currently in the works:
 
