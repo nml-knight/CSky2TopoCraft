@@ -72,7 +72,8 @@ The SRTM15+ has a very low spatial resolution (aprox. 92m @ 15arcseconds). Whils
 #### Set Minimum Elevation
 The user can set the minimum elevation level. The absolute value of the lowest negative height value, if any, will be added to the user-input value to ensure that the user-input value remains constant. If the resulting minimum elevation is less than 0, it sets it to 0 to ensure that values are valid and that no values are clipped during the GDAL conversion to .png (when values get rescaled). Note that if you set this to zero and you have bathymetry enabled, this will set the minimum elevation of your map to the maximum depth of your seafloor. Also note that the minimum elevation value will determine the kind of texturing that gets automatically applied to your heightmaps in the map editor. The higher your minimum elevation value, the more mountainous it will appear, even if the value ranges are identical. The texturing application appears to be tied to the altitude of your map within the (hypothetical) box drawn by the height scale (0-4096 by default).
 
-#### 
+#### QGIS Visualisation
+Set this to visualise your heightmap in the QGIS map canvas.
 
 ## Known Issues
 
@@ -89,7 +90,9 @@ Currently in the works:
 
 (4) Scripting for the automation of CRS identification based on user coordinates.
 
-(5) Cubic / Lanczos
+(5) Plugin UI
+
+(6) Toggle for saved visualisation output.
 
 (6) Sea Level User Specification
 
