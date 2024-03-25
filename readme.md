@@ -98,7 +98,5 @@ Currently in the works:
 
 (8) Burning Rivers and Lakes
 
-(9) Better visualisation options
-
-(10) NOAA
+(9) NOAA
 
