@@ -78,6 +78,7 @@ Set this to visualise your map data in the QGIS map canvas. Both the worldmap an
 ## Known Issues
 
 fix coord transform EPSG error
+toggling contours may cause crash on run - still not sure why
 
 ## Development
 Currently in the works:
