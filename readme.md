@@ -96,12 +96,12 @@ UC
 UC
 
 #### QGIS Visualisation
-Set this to visualise your map data in the QGIS map canvas. Each layer of map data involved in the process of heightmap creation will be loaded into QGIS and added to an unexpanded group in the Layers legend panel. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Analytical hillshade and slope layers will then be created for relief and shading purposes. Both the worldmap buffer and the heightmap buffer will be drawn and symbolised to show the non-playable and playable areas of the resulting CS2 map. 
+Set this to visualise your map data in the QGIS map canvas. Each layer of map data involved in the process of heightmap creation will be loaded into QGIS and added to an unexpanded group in the Layers legend panel. The heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). The worldmap layer will be left as singleband gray. Analytical hillshade and slope layers will then be created for relief and shading purposes. Both the worldmap buffer and the heightmap buffer will be drawn and symbolised to show the non-playable and playable areas of the resulting CS2 map. 
 
 TODO: coordinate points layer visualisation, custom colour ramp.
 
 #### Display Contours
-Toggling this option will create and load a separate layer into QGIS. This layer will display the contour lines according to the height values of your map. The contours are spaced 10 metres apart, with an offset of 1 to delineate the contour of your sea level. Note that, depending on your data resolution and your CPU, this algorithm may take some time to complete (perhaps minutes, not seconds). If visualisation is enabled, the layer will be inserted into the produced layers group in the Layers legend panel. The opacity of the contours will be set to 50%.
+Toggling this option will create and load a separate layer into QGIS. This layer will display the contour lines according to the height values of your map. The contours are spaced 10 metres apart, with an offset of 1 to delineate the contour of your sea level (effectively your coastline). Note that, depending on your data resolution and your CPU, this algorithm may take some time to complete (perhaps minutes, not seconds). If visualisation is enabled, the layer will be inserted into the produced layers group in the Layers legend panel. The opacity of the contours will be set to 50%.
 
 TODO: Labels, Contour Polygons. 
 
