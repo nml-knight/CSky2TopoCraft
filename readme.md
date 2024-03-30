@@ -84,6 +84,8 @@ The user can set the minimum elevation level. The absolute value of the lowest n
 #### QGIS Visualisation
 Set this to visualise your map data in the QGIS map canvas. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Hillshade and slope layers will then be created for relief and shading respectively. Lastly, contours will be drawn - computationally expensive. Working on WMS tileset implementation.
 
+TODO
+
 ## Known Issues
 Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
 
