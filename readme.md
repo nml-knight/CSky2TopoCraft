@@ -76,28 +76,22 @@ The user can set the minimum elevation level. The absolute value of the lowest n
 Set this to visualise your map data in the QGIS map canvas. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Hillshade and slope layers will then be created for relief and shading respectively. Lastly, contours will be drawn - computationally expensive. Working on WMS tileset implementation.
 
 ## Known Issues
+Layer loading and Layers tree layer organisation needs work - any custom layers created by the user will break the layer ordering and, consequently, styling.
 
-fix coord transform EPSG error
-toggling contours may cause crash on run - still not sure why
+## TODO:
+implement saved input feature
+improve existing visualisations
+map canvas settings integration
+add option to output original DEMs for visualisation
+differentiate user feedback / debug mode
+improve feedback
+implement dynamic filepath identification and saving
+Orfeo scripting for automatic CRS identification
+implement burn rivers/lakes
+try NOAA API
+implement DSM to DTM converter (simple)
+implement experiment terrain quality enhancement processing options (inc. AI-assisted classification)
+implement automatic overlay creation feature
+create Plugin UI
 
-## Development
-Currently in the works:
-
-(1) DSM to DTM Converter.
-
-(2) Experimental Terrain Quality Enhancement Processing Options.
-
-(3) QGIS Map Canvas Visualisations.
-
-(4) Scripting for the automation of CRS identification based on user coordinates.
-
-(5) Plugin UI
-
-(6) Toggle for saved visualisation output.
-
-(7) Sea Level User Specification
-
-(8) Burning Rivers and Lakes
-
-(9) NOAA
 
