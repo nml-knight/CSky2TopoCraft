@@ -93,6 +93,9 @@ Toggling this option will create and load a separate layer into QGIS. This layer
 
 TODO: Labels, Contour Polygons. 
 
+#### Debug Mode
+Self-explanatory. Users can toggle to see increased feedback, but feedback is mostly for development use.
+
 ## Known Issues
 Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
 
