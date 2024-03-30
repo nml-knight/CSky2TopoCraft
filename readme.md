@@ -90,19 +90,19 @@ TODO
 Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
 
 ## TODO:
-*implement saved input feature\
-*improve existing visualisations
-*map canvas settings integration
-*add option to output original DEMs for visualisation
-differentiate user feedback / debug mode
-improve feedback
-implement dynamic filepath identification and saving
-Orfeo scripting for automatic CRS identification
-implement burn rivers/lakes
-try NOAA API
-implement DSM to DTM converter (simple)
-implement experiment terrain quality enhancement processing options (inc. AI-assisted classification)
-implement automatic overlay creation feature
+implement saved input feature\
+improve existing visualisations\
+map canvas settings integration\
+add option to output original DEMs for visualisation\
+differentiate user feedback / debug mode\
+improve feedback\
+implement dynamic filepath identification and saving\
+Orfeo scripting for automatic CRS identification\
+implement burn rivers/lakes\
+try NOAA API\
+implement DSM to DTM converter (simple)\
+implement experiment terrain quality enhancement processing options (inc. AI-assisted classification)\
+implement automatic overlay creation feature\
 create Plugin UI
 
 
