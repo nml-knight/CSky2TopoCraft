@@ -27,7 +27,13 @@ Navigate to the correct tab and hit the ellipsis to find the .zip file you just 
 
 ![insfromzip](images/insfromzip.png)
 
-The plugin will appear listed in the Plugins menu.
+Activate the Processing Toolbox panel.
+
+![acttoolbox](images/acttoolbox.png)
+
+Your plugin will appear in the Processing Toolbox.
+
+![loctoolbox](images/loctoolbox.png)
 
 ### Get OpenTopography API Key
 Navigate to https://opentopography.org/ and hit Request an API key to create an account.
