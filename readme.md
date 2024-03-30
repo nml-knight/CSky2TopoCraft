@@ -19,7 +19,7 @@ Note that this has been created as a convenience tool for players making heightm
 ### Install QGIS
 Download and install QGIS from https://qgis.org/en/site/forusers/download.html
 ### Install Plugin
-Download the plugin .zip file from this repository. Open QGIS.
+Download the plugin .zip file from the releases (tags) section of this repository. Open QGIS.
 
 In QGIS:
 
