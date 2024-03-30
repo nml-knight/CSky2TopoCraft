@@ -84,9 +84,14 @@ The SRTM15+ has a very low spatial resolution (aprox. 92m @ 15arcseconds). Whils
 The user can set the minimum elevation level. The absolute value of the lowest negative height value, if any, will be added to the user-input value to ensure that the user-input value remains constant. If the resulting minimum elevation is less than 0, it sets it to 0 to ensure that values are valid and that no values are clipped during the GDAL conversion to .png (when values get rescaled). Note that if you set this to zero and you have bathymetry enabled, this will set the minimum elevation of your map to the maximum depth of your seafloor. Also note that the minimum elevation value will determine the kind of texturing that gets automatically applied to your heightmaps in the map editor. The higher your minimum elevation value, the more mountainous it will appear, even if the value ranges are identical. The texturing application appears to be tied to the altitude of your map within the (hypothetical) box drawn by the height scale (0-4096 by default).
 
 #### QGIS Visualisation
-Set this to visualise your map data in the QGIS map canvas. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Hillshade and slope layers will then be created for relief and shading respectively. Lastly, contours will be drawn - computationally expensive. Working on WMS tileset implementation.
+Set this to visualise your map data in the QGIS map canvas. Each layer of map data involved in the process of heightmap creation will be loaded into QGIS and added to an unexpanded group in the Layers legend panel. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Analytical hillshade and slope layers will then be created for relief and shading purposes. Both the worldmap buffer and the heightmap buffer will be drawn and symbolised to show the non-playable and playable areas of the resulting CS2 map. 
 
-TODO
+TODO: coordinate points layer visualisation, custom colour ramp.
+
+#### Display Contours
+Toggling this option will create and load a separate layer into QGIS. This layer will display the contour lines according to the height values of your map. The contours are spaced 10 metres apart, with an offset of 1 to delineate the contour of your sea level. Note that, depending on your data resolution and your CPU, this algorithm may take some time to complete (perhaps minutes, not seconds). If visualisation is enabled, the layer will be inserted into the produced layers group in the Layers legend panel. The opacity of the contours will be set to 50%.
+
+TODO: Labels, Contour Polygons. 
 
 ## Known Issues
 Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
