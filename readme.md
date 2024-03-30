@@ -3,7 +3,9 @@ This is CSky2TopoCraft: a QGIS plugin that will allow you to automatically downl
 
 You will need:
 
-The Quantum Geographic Information System (QGIS)
+A decent CPU.
+
+The Quantum Geographic Information System (QGIS) v3.36+
 
 The plugin.
 
