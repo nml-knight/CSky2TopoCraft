@@ -63,6 +63,9 @@ Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note 
 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
+
+Enter
+
 ### Advanced
 #### Download and Merge SRTM15+ Source Bathymetry Data
 The user can choose to automatically download and merge SRTM15+ source bathymetry data with the DEM. The script initiates the OpenTopography DEM Downloader algorithm. After downloading the bathymetry data, a validity mask is created from the DEM. This mask identifies where the bathymetry data is valid. It checks if the elevation value is equal to 0, indicating areas of no data. These areas are presumed to represent water. The downloaded bathymetry data raster is then reprojected, clipped, and aligned with the DEM data raster. The following expression is used in the Raster Calculator to apply the merge. The expression ensures that where bathymetry data is available, it is used, and where it's not available, the DEM data is retained. 
@@ -82,7 +85,7 @@ The user can set the minimum elevation level. The absolute value of the lowest n
 Set this to visualise your map data in the QGIS map canvas. Both the worldmap and heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). Hillshade and slope layers will then be created for relief and shading respectively. Lastly, contours will be drawn - computationally expensive. Working on WMS tileset implementation.
 
 ## Known Issues
-Layer loading and Layers tree layer organisation needs work - any custom layers created by the user will break the layer ordering and, consequently, styling.
+Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
 
 ## TODO:
 implement saved input feature
