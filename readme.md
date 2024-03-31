@@ -46,6 +46,8 @@ Find your API key at: https://portal.opentopography.org/requestService?service=a
 
 ![otapikey](images/otapikey.png)
 
+For further information, see https://opentopography.org/blog/introducing-api-keys-access-opentopography-global-datasets
+
 ### Determine your Coordinate Reference System and Coordinates
 #### Step 1
 Navigate to https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# and find the UTM zone in which your city falls.
