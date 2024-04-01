@@ -11,16 +11,6 @@ The plugin.
 
 The ability to read.
 
-## Why Use CSky2TopoCrafter
-There are a few reasons why you might want to use this program over other programs designed to automate the process of heightmap creation:\
-\
-(1) Speed: once you've read the tutorial, installed QGIS and the plugin, and understand how to use the plugin, generating heightmaps should be a breeze.\
-(2) Accuracy: the QGIS toolset leveraged by the plugin allows for extremely high levels of accuracy. If a 1:1 scale is the goal, this is where your city begins. \
-(3) Control: this plugin will become increasingly feature-rich overtime, allowing greater and greater control over the production of heightmaps. See TODO for details.\
-(4) Lightweight: owing to OpenTopography's DEM downloader, the filesizes of what you download will be relatively small. No more 1gb+ .tif files.\
-(5) Stability: the only intermediary between you and the data provider from whom you're downloading data is OpenTopograhy. As long as OT can get the data, so can you.\
-\
-Lastly, this plugin is completely free and open source. If you don't like the way the plugin works, you can change it. I won't mind.
 
 ## Limitations
 Note that this has been created as a convenience tool for players making heightmaps for cities outside the United States and other informationally-rich countries (e.g., Switzerland). Users will not be able to use it to download and create heightmaps from the USGS 1-metre DEM data product. It is limited to the global (30M+) products normally accessible through the OpenTopography DEM Downloader plugin.
@@ -124,6 +114,17 @@ UC
 
 #### Debug Mode
 Self-explanatory. Users can toggle to see increased feedback, but feedback is mostly for development use.
+
+## Why Use CSky2TopoCrafter?
+There are a few reasons why you might want to use this program over other programs designed to automate the process of heightmap creation:\
+\
+(1) Speed: once you've read the tutorial, installed QGIS and the plugin, and understand how to use the plugin, generating heightmaps should be a breeze.\
+(2) Accuracy: the QGIS toolset leveraged by the plugin allows for extremely high levels of accuracy. If a 1:1 scale is the goal, this is where your city begins. \
+(3) Control: this plugin will become increasingly feature-rich overtime, allowing greater and greater control over the production of heightmaps. See TODO for details.\
+(4) Lightweight: owing to OpenTopography's DEM downloader, the filesizes of what you download will be relatively small. No more 1gb+ .tif files.\
+(5) Stability: the only intermediary between you and the data provider from whom you're downloading data is OpenTopograhy. As long as OT can get the data, so can you.\
+\
+Lastly, this plugin is completely free and open source. If you don't like the way the plugin works, you can change it. I won't mind.
 
 ## Known Issues
 Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
