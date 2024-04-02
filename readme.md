@@ -99,7 +99,7 @@ UC
 UC
 
 #### QGIS Visualisation
-Set this to visualise your map data in the QGIS map canvas. Each layer of map data involved in the process of heightmap creation will be loaded into QGIS and added to an unexpanded group in the Layers legend panel. The heightmap layers will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). The worldmap layer will be left as singleband gray. Analytical hillshade and slope layers will then be created for relief and shading purposes. Both the worldmap buffer and the heightmap buffer will be drawn and symbolised to show the non-playable and playable areas of your finished CS2 map. 
+Set this to visualise your map data in the QGIS map canvas. Certain layers of map data involved in the process of heightmap creation will be loaded into QGIS and added to an unexpanded group in the Layers legend panel. The heightmap layer will be set to singleband pseudocolour and given a colour ramp (default 'Spectral'). The worldmap layer will be left as singleband gray. Analytical hillshade and slope layers will then be created for relief and shading purposes. The blending and resampling modes will then be set to multiply and either cubic or bilinear depending on user input for 'Set resampling method'. Both the worldmap buffer and the heightmap buffer will be drawn and symbolised to show the non-playable and playable areas of your finished CS2 map. The opacity of each layer will be tuned for best predictable visual effect.
 
 TODO: coordinate points layer visualisation, custom colour ramp.
 
