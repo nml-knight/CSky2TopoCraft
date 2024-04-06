@@ -127,7 +127,8 @@ There are a few reasons why you might want to use this program over other progra
 Lastly, this plugin is completely free and open source. If you don't like the way the plugin works, you can change it. I won't mind.
 
 ## Known Issues
-Layer loading and Layers tree layer organisation needs work - any custom layers created by the user may break the layer ordering and, consequently, styling.
+Custom layers created by the user may break the layer ordering and, consequently, styling.\
+Source DEM and bathymetry rasters are mutually exclusive. Toggling the option to load them together with the option to download bathymetry will load only bathymetry. If users want the source DEM raster, they should leave the option to download bathymetry unchecked.
 
 ## TODO:
 implement saved input feature\
