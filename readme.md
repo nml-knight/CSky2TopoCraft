@@ -127,6 +127,8 @@ There are a few reasons why you might want to use this program over other progra
 Lastly, this plugin is completely free and open source. If you don't like the way the plugin works, you can change it. I won't mind.
 
 ## Known Issues
+Under certain conditions, QGIS' behaviour may result in the project EPSG code being added to the user input field for coordinates by default. If the user does not remove it, it may lead to out-of-bounds extent error.\
+\
 Custom layers created by the user may break the layer ordering and, consequently, styling.\
 \
 Source DEM and bathymetry rasters are mutually exclusive. Toggling the option to load them together with the option to download bathymetry will load only bathymetry. If users want the source DEM raster, they should leave the option to download bathymetry unchecked.
