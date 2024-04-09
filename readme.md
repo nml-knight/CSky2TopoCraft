@@ -139,7 +139,7 @@ Custom layers created by the user may break the layer ordering and, consequently
 Source DEM and bathymetry rasters are mutually exclusive. Toggling the option to load them together with the option to download bathymetry will load only bathymetry. If users want the source DEM raster, they should leave the option to download bathymetry unchecked.
 
 ## TODO:
-implement saved input feature\
+increase saved input features\
 improve existing visualisations\
 map canvas settings integration\
 fix option to output original DEMs for visualisation\
