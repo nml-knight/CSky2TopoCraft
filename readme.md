@@ -60,7 +60,7 @@ Navigate to https://epsg.io/map#srs=4326&x=0.000000&y=0.000000&z=1&layer=streets
 
 ![changecrs](images/epsgchangecrs.png)
 
-Enter your UTM zone in the search box and use the results to change the coordinate reference system (CRS) to match your UTM zone. It must be WGS 84 / UTM zone (number)(hemisphere).
+Enter your UTM zone in the search box and use the results to change the coordinate reference system (CRS) to match your UTM zone. It should be something like WGS 84 / UTM zone (number)(hemisphere).
 
 ![epsgselectcrs](images/epsgselectcrs.png)
 
