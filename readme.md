@@ -71,6 +71,9 @@ Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note 
 
 ![pluginuse](images/pluginuse_1.png)
 
+\
+Click run after entering the required information. If everything goes correctly, your heightmaps will be created, converted and exported to your CS2 heightmaps directory. You will find them available to be loaded inside the editor.
+
 ### Advanced
 #### Download and Merge SRTM15+ Source Bathymetry Data
 The user can choose to automatically download and merge SRTM15+ source bathymetry data with the DEM. The script initiates the OpenTopography DEM Downloader algorithm. After downloading the bathymetry data, a validity mask is created from the DEM. This mask identifies where the bathymetry data is valid. It checks if the elevation value is equal to 0, indicating areas of no data. These areas are presumed to represent water. The downloaded bathymetry data raster is then reprojected, clipped, and aligned with the DEM data raster. The following expression is used in the Raster Calculator to apply the merge. The expression ensures that where bathymetry data is available, it is used, and where it's not available, the DEM data is retained. 
