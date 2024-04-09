@@ -127,6 +127,8 @@ There are a few reasons why you might want to use this program over other progra
 Lastly, this plugin is completely free and open source. If you don't like the way the plugin works, you can change it. I won't mind.
 
 ## Known Issues
+The first time you run the plugin on a new install or on a new profile, QGIS may reset the project CRS to the initial default once the program has finished running. If this happens, you should add the CRS of your coordinates manually in Project Properties tab (bottom right-hand corner of the UI for shortcut). I am working on fixing this.\
+
 Under certain conditions, QGIS' behaviour may result in the project EPSG code being added to the user input field for coordinates by default. If the user does not remove it, it may lead to out-of-bounds extent error.\
 \
 Custom layers created by the user may break the layer ordering and, consequently, styling.\
