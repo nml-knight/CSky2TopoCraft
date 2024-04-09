@@ -69,7 +69,7 @@ Use the map cross-hairs (2) to determine the coordinates (3) of your city. Note 
 ![findcoord](images/findcoord.png)
 ### Using the Plugin
 
-![pluginuse](images/pluginuse.png)
+![pluginuse](images/pluginuse_1.png)
 
 ### Advanced
 #### Download and Merge SRTM15+ Source Bathymetry Data
