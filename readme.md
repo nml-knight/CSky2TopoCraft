@@ -139,7 +139,7 @@ Source DEM and bathymetry rasters are mutually exclusive. Toggling the option to
 implement saved input feature\
 improve existing visualisations\
 map canvas settings integration\
-add option to output original DEMs for visualisation\
+fix option to output original DEMs for visualisation\
 differentiate user feedback / debug mode\
 improve feedback\
 implement dynamic filepath identification and saving\
